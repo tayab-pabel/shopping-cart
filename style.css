@@ -161,10 +161,10 @@ td {
 	h4, 
 	td, 
 	p {
-		font-size: 15px;
+		font-size: 14px;
 	}
 	.product .product-img {
-		width: 70px;
+		width: 50px;
 	}
 	.product .input-group .fas {
 		font-size: 8px;
