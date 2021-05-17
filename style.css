@@ -1,56 +1,154 @@
 body{
-	background: #fff;
+	font-family: 'Titillium Web', sans-serif;
+	background: rgba(203, 21, 27, 0.05);
 }
-.cart{
-	margin: 100px 0;
-	background-color: #F6F5FA;;
-	padding: 60px 0;
+
+h1 {
+    font-size: 35px;
+    font-weight: 700;
 }
-.total-price{
-	padding-bottom: 15px;
+
+h2 {
+    font-size: 28px;
 }
-.cart-item{
-	background-color: #fff;
-	border-radius: 10px;
-	padding: 15px 20px;
-	margin-bottom: 20px;
+
+h3 {
+	font-size: 22px;
 }
-.center-item{
+
+h4 {
+	font-size: 18px;
+}
+
+p {
+	font-size: 16px;
+}
+
+h2, h3, h4, a, p, label {
+	font-weight: 600;
+}
+
+h1, 
+a,
+a:hover {
+    color: #c9151b;
+}
+
+.container {
+	max-width: 1340px;
+}
+
+.card {
+    border: 0;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.center-item {
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-.cart-item img{
-	width: 115px;
+
+.product {
+	padding: 10px 0;
 }
-.cart-item h5{
-    padding: 0 45px;
+
+.product .product-img {
+	width: 100px;
 }
-.cart-item .remove-item{
-	width: 25px!important;
-	cursor: pointer;
+
+.product .input-group {
+	width: 140px;
+	height: 50px;
+	margin-top: 10px;
 }
-.btn-default{
-	background-color: #fff;
+
+.product .input-group .btn:focus,
+.product .input-group .form-control:focus {
+	box-shadow: none;
 }
-.cart-item .form-control{
-	background-color: #F6F5FA;
+
+.product .input-group .number-spinner-btn {
+	border: 1px solid #E2E8F0;
+	border-radius: 0;
+}
+
+.product .input-group .number-spinner-btn:hover {
+	background: #E2E8F0;
+}
+
+.product .input-group .minus {
+	border-radius: 10px 0px 0px 10px;
+}
+
+.product .input-group .plus {
+	border-radius: 0px 10px 10px 0px;
+}
+
+.product .input-group .number-spinner-input {
+	width: 40px;
+	height: 50px;
+	font-weight: 600;
+	background: #FFFFFF;
 	border: none;
-    width: 65px;
-    border-radius: 10px!important;
-    font-weight: 700;
-    font-size: 20px;
+	border-top: 1px solid #E2E8F0;
+	border-bottom: 1px solid #E2E8F0;
 }
-.input-group{
-	width: unset;
+
+.product .input-group .fas {
+	font-size: 10px;
 }
-.status{
-	text-align: right;
+
+.checkout-details .form-control{
+    border: none;
+    border: 1px solid rgba(0,0,0,.125);
 }
-.check-out{
-    float: right;
-    padding: 10px 30px;
-	font-size: 19px;
-	background-color: #2FBE70;
-	border: none;
+
+.checkout-details .form-control:focus {
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid #c9151b;
+    outline: 0;
+    box-shadow: none;
+}
+
+.order .checkout .btn {
+	width: 100%;
+}
+
+.order .checkout .btn,
+.checkout-details .confirm-order-btn {
+    color: #FFFFFF;
+    background: #c9151b;
+	font-size: 16px;
+	font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.order .checkout .btn:hover,
+.checkout-details .confirm-order-btn:hover {
+    background: #af1318;
+    color: #FFFFFF;
+}
+
+.order .checkout .btn:focus,
+.checkout-details .confirm-order-btn:focus {
+	box-shadow: none;
+}
+
+.invoice .card-body {
+	padding: 0;
+}
+
+td {
+	font-size: 15px;
+}
+
+#checkout-details-area {
+	display: none;
+}
+
+#invoice-area {
+	display: none;
 }
