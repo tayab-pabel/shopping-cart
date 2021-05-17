@@ -159,8 +159,12 @@ td {
 		font-size: 30px;
 	}
 
-	.invoice h1 {
+	h2 {
 		font-size: 25px;
+	}
+
+	.invoice-header {
+		font-size: 27px;
 	}
 
 	h4, 
