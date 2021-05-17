@@ -30,7 +30,8 @@ h2, h3, h4, a, p, label {
 
 h1, 
 a,
-a:hover {
+a:hover,
+.product-remove i {
     color: #c9151b;
 }
 
@@ -160,14 +161,33 @@ td {
 
 	h4, 
 	td, 
-	p {
+	p, 
+	.product .input-group .number-spinner-input {
 		font-size: 14px;
 	}
-	.product .product-img {
-		width: 50px;
-	}
-	.product .input-group .fas {
-		font-size: 8px;
+
+	.product .input-group {
+		width: 100px;
+		margin-top: 5px;
 	}
 
+	.product .input-group .number-spinner-input {
+		width: 20px;
+		height: 30px;
+	}
+
+	.product .input-group .number-spinner-btn {
+		padding: 0 10px;
+		margin: 0;
+		height: 30px;
+	}
+
+	.product .product-img {
+		width: 60px;
+	}
+
+	.product .input-group .fas {
+		font-size: 8px;
+		line-height: 1;
+	}
   }
