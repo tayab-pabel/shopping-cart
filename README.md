@@ -6,7 +6,7 @@
    - Product order and checkout.
    - Order invoice.
    - Responsive layout.
-## Technology & Tools
+## Technology
    - HTML
    - CSS
    - Bootstrap
